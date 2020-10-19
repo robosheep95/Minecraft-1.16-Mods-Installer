@@ -37,3 +37,5 @@ Copy-Item .\shaderpacks\* -Destination $env:APPDATA\.minecraft\shaderpacks
 Write-Host Done copying shaderpacks.
 
 Write-Host Done.
+
+Read-Host -Prompt "Press Enter to exit"
